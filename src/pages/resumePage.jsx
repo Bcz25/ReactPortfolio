@@ -3,7 +3,7 @@ import jsPDF from 'jspdf';
 
 function Resume() {
     const downloadPdf = () => {
-        const input  = document.getElementById('pdfDoc');
+        const input  = document.getElementsByClassName('pdfDoc');
         html2canvas(input).then((canvas) => {
             const imgData = canvas.toDataURL('image/png');
             const pdf = new jsPDF();

@@ -5,7 +5,7 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 const ProjectContainer = ({ projectTitle, github, liveUrl, imageUrl}) => {
     return (
-        <div className="relative group w-64 h-64 bg-cover bg-center rounded-lg shadow-xl" style={{ backgroundImage: `url(${imageUrl})` }}>
+        <div className="relative group w-64 h-64 bg-cover bg-center rounded-lg shadow-xl mb-5" style={{ backgroundImage: `url(${imageUrl})` }}>
             <div className="absolute inset-0 bg-white bg-opacity-0 group-hover:bg-opacity-0 flex justify-end items-start p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg z-10">
                 <div className="flex items-center space-x-2">
                     {github && (
