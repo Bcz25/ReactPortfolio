@@ -6,7 +6,7 @@ function About() {
             <h2 className="text-4xl font-bold">About Me</h2>
           </div>
           <div className="flex w-full justify-center items-center pb-5">
-            <img src="./src/assets/me.png" alt="Description" className="h-64 w-48 mt-4 rounded shadow-2xl" />
+            <img src="./src/assets/ProfilePhoto.png" alt="Profile Photo - Brett Czerwinski" className="h-64 w-48 mt-4 rounded shadow-2xl" />
           </div>
           <div className="resume-item bg-gray-400 p-6 rounded shadow font-semibold">
             <div className="flex flex-col">
