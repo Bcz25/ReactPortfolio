@@ -3,7 +3,7 @@ import jsPDF from 'jspdf';
 
 function Resume() {
     const downloadPdf = () => {
-        const input  = document.getElementsByClassName('pdfDoc');
+        const input  = document.getElementById('pdfDoc');
         html2canvas(input).then((canvas) => {
             const imgData = canvas.toDataURL('image/png');
             const pdf = new jsPDF();
@@ -13,7 +13,7 @@ function Resume() {
     };
     return (
 
-    <div className="container mx-auto px-4 pdfDoc">
+    <div className="container mx-auto px-4" id="pdfDoc" >
 
       <div className="bg-gray-900 text-gray-400 text-center rounded p-2 shadow-xl mb-12 mx-auto w-1/2">
         <h2 className="text-4xl font-bold">Resume</h2>
