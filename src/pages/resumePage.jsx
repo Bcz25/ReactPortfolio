@@ -1,17 +1,19 @@
-
+import html2canvas from 'html2canvas';
+import jsPDF from 'jspdf';
 
 function Resume() {
-    const getPdf = () => {
-        const pdfUrl = "./src/assets/brett-czerwinski-resume.pdf";
-        const link = document.createElement("a");
-        link.href = pdfUrl;
-        link.download = "brett-czerwinski-resume.pdf";
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+    const downloadPdf = () => {
+        const input  = document.getElementById('pdfDoc');
+        html2canvas(input).then((canvas) => {
+            const imgData = canvas.toDataURL('image/png');
+            const pdf = new jsPDF();
+            pdf.addImage(imgData, 'PNG', 0, 0);
+            pdf.save("brett-czerwinski-resume.pdf");
+        });
     };
     return (
-    <div className="container mx-auto px-4">
+
+    <div className="container mx-auto px-4 pdfDoc">
 
       <div className="bg-gray-900 text-gray-400 text-center rounded p-2 shadow-xl mb-12 mx-auto w-1/2">
         <h2 className="text-4xl font-bold">Resume</h2>
@@ -83,7 +85,7 @@ function Resume() {
         </div>
       </div>
       <div className="text-center m-8">
-        <button onClick={getPdf} className="text-gray-900 font-bold bg-teal-700 rounded shadow p-3 hover:bg-teal-900">
+        <button onClick={downloadPdf} className="text-gray-900 font-bold bg-teal-700 rounded shadow p-3 hover:bg-teal-900">
           Download Resume
         </button>
       </div>
