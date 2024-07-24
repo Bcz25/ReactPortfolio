@@ -17,17 +17,19 @@ function Resume() {
             <h5>2024</h5>
             <p><em>University of Utah, UT</em></p>
             <ul className="list-disc pl-5">
-              <li>Learned front-end and back-end technologies including HTML, CSS, JavaScript, jQuery, Node.js, React, Express, and SQL.</li>
+              <li>Learned front-end and back-end technologies including HTML, CSS, JavaScript, jQuery, Node.js, React, Express, PostgreSQL, NoSQL/MongoDB, and GraphQL.</li>
               <li>Developed and deployed full-stack applications, incorporating best practices for responsive and accessible web design.</li>
             </ul>
           </div>
           <div className="resume-item bg-gray-400 p-6 rounded shadow mb-6">
-            <h4 className="text-xl font-bold">Certified in cybersecurity</h4>
-            <h5>2023</h5>
+            <h4 className="text-xl font-bold">Certified in Cybersecurity</h4>
+            <h5>2022</h5>
             <p><em>ISC2</em></p>
             <ul className="list-disc pl-5">
-              <li>Demonstrated knowledge of fundamental cybersecurity principles and practices.</li>
-              <li>Validated skills in securing networks, managing risks, and protecting data integrity.</li>
+              <li>Basic security principles</li>
+              <li>Incident response</li>
+              <li>Network Security</li>
+              <li>Security Operations</li>
             </ul>
           </div>
           <div className="resume-item bg-gray-400 p-6 rounded shadow">
@@ -37,6 +39,10 @@ function Resume() {
             <ul className="list-disc pl-5">
               <li>Proven expertise in securing network devices, identifying vulnerabilities, and implementing security measures.</li>
               <li>Recognized ability to handle and mitigate security threats and incidents.</li>
+              <li>Understand Architecture and design for security concepts and best practices</li>
+              <li>Understand the importance of policies, plans and procedures related to organizational security</li>
+              <li>Understand risk management processes and practices</li>
+              <li>Compare basic types of cryptography</li>
             </ul>
           </div>
         </div>
@@ -47,10 +53,10 @@ function Resume() {
             <h5>2023 - Present</h5>
             <p><em>Novacoast, Orem, UT </em></p>
             <ul className="list-disc pl-5">
-              <li>Monitored and analyzed security events and incidents using SIEM (Security Information and Event Management) tools to detect and respond to cyber threats in real-time. </li>
-              <li>Conducted in-depth investigations into security alerts, determining their validity and potential impact on the organization's systems and data. </li>
-              <li>Produced detailed reports and documentation of security incidents, including root cause analysis, impact assessment, and remediation recommendations. </li>
-              <li>Participated in security awareness training and knowledge sharing sessions to educate staff on cybersecurity best practices and emerging threats.</li>
+              <li>Monitor and analyze security events and incidents using SIEM (Security Information and Event Management) tools such as LogRhythm, Microsoft Sentinel, Splunk/Phantom, Cloudflare, Crowdstrike and Service-Now. to detect and respond to cyber threats in real-time.</li>
+              <li>Conducting in-depth investigations into security alerts, determining their validity and potential impact on the organization's systems and data. </li>
+              <li>Produce detailed reports and documentation of security incidents, including root cause analysis, impact assessment, and remediation recommendations. </li>
+              <li>Participate in security awareness training and knowledge sharing sessions to educate staff on cybersecurity best practices and emerging threats.</li>
             </ul>
           </div>
           <div className="resume-item bg-gray-400 p-6 rounded shadow mb-6">
@@ -70,6 +76,10 @@ function Resume() {
             <ul className="list-disc pl-5">
               <li>Consulted with a wide variety of clients to meet their life insurance and retirement needs.</li>
               <li>Managed a team of over 10 brokers and assisted them with their clients and other trainings.</li>
+              <li>Protected and secured client PII.</li>
+              <li>Worked with systems that hosted client financial information and kept PCI/DSS compliance.</li>
+              <li>Developed great interpersonal skills through working directly with a diverse clientele.</li>
+              <li>Utilized a database to analyze charts and graphs for keeping track of progress and important client and team information.</li>
             </ul>
           </div>
         </div>
