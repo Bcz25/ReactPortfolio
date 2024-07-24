@@ -31,7 +31,7 @@ function Projects() {
         },
         {
             id: 4,
-            projectTitle: 'Natinal Park Finder',
+            projectTitle: 'National Park Finder',
             github: 'https://github.com/Bcz25/NationalParks',
             liveUrl: 'https://bcz25.github.io/NationalParks/',
             imageUrl: nationalImg,
